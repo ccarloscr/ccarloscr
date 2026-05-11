@@ -44,7 +44,7 @@ An R-based workflow for **quantifying chromatin loop strength** from Hi-C-derive
 
 ---
 
-### [metaloops-25](https://github.com/ccarloscr/metaloops-25)
+### [metaloops-toolkit](https://github.com/ccarloscr/metaloops-toolkit)
 Utility workflow for preparing Hi-C-derived data for **metaloops / loop-calling analyses**, including format conversion and preprocessing.
 
 **Focus:** Hi-C preprocessing, genomics formats, SLURM-based workflows
