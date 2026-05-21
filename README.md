@@ -21,14 +21,6 @@ I am currently strengthening the **software engineering / Python / data pipeline
 
 ## :dna: Featured repositories
 
-### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
-Python-based ETL workflow for retrieving and integrating **RNA-seq and metadata from the Genomic Data Commons (GDC)**.  
-This project reflects my current effort to build more industry-oriented, Python-first genomics tooling.
-
-**Focus:** Python, ETL, public cancer genomics data, metadata integration
-
----
-
 ### [chip_nf](https://github.com/ccarloscr/chip_nf)
 A **Nextflow DSL2 ChIP-seq pipeline** developed for reproducible analysis in HPC environments.  
 Includes workflow modularization, metadata-driven execution, and standard ChIP-seq processing steps.
@@ -38,9 +30,17 @@ Includes workflow modularization, metadata-driven execution, and standard ChIP-s
 ---
 
 ### [loopstrength](https://github.com/ccarloscr/loopstrength)
-An R-based workflow for **quantifying chromatin loop strength** from Hi-C-derived loop calls, with bootstrap-based significance testing and visualization.
+A 4-step pipeline designed for **quantifying chromatin loop strength** between two Hi-C conditions. Generates distance-matched random loops to compute empirical p-values and log2 fold changes, specifically solving low-replicate constraints.
 
-**Focus:** Hi-C, 3D genomics, statistical genomics, R
+**Focus:** Hi-C, 3D genomics, statistics, low-replicates
+
+---
+
+### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
+Python-based ETL workflow for retrieving and integrating **RNA-seq and metadata from the Genomic Data Commons (GDC)**.  
+This project reflects my current effort to build more industry-oriented, Python-first genomics tooling.
+
+**Focus:** Python, ETL, public cancer genomics data, metadata integration
 
 ---
 
