@@ -38,18 +38,18 @@ A 4-step pipeline designed for **quantifying chromatin loop strength** between t
 
 ---
 
+### [metaloops-toolkit](https://github.com/ccarloscr/metaloops-toolkit)
+Utility workflow for preparing Hi-C-derived data for **metaloops / loop-calling analyses**, including format conversion and preprocessing.
+
+**Focus:** Hi-C preprocessing, genomics formats, SLURM-based workflows
+
+---
+
 ### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
 Python-based ETL workflow for retrieving and integrating **RNA-seq and metadata from the Genomic Data Commons (GDC)**.  
 This project reflects my current effort to build more industry-oriented, Python-first genomics tooling.
 
 **Focus:** Python, ETL, public cancer genomics data, metadata integration
-
----
-
-### [metaloops-toolkit](https://github.com/ccarloscr/metaloops-toolkit)
-Utility workflow for preparing Hi-C-derived data for **metaloops / loop-calling analyses**, including format conversion and preprocessing.
-
-**Focus:** Hi-C preprocessing, genomics formats, SLURM-based workflows
 
 ---
 
