@@ -22,12 +22,11 @@ I am currently strengthening the **software engineering / Python / data pipeline
 ## :dna: Featured repositories
 
 ### [chip_nf](https://github.com/ccarloscr/chip_nf)
-> ⚠️ **Notice: Major Revamp in Progress**
 
 A **Nextflow DSL2 ChIP-seq pipeline** developed for reproducible analysis in HPC environments.  
 Includes workflow modularization, metadata-driven execution, and standard ChIP-seq processing steps.
 
-**Focus:** Nextflow, ChIP-seq, SLURM, Conda, reproducible workflows
+**Focus:** Nextflow, ChIP-seq, Conda, reproducible workflows
 
 ---
 
