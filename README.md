@@ -39,7 +39,8 @@ R/Python workflow for **quantifying chromatin loop strength changes** between tw
 
 ### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
 **Python ETL pipeline** for extracting, transforming, and integrating RNA-seq expression data and clinical metadata from the **NCI Genomic Data Commons**.
-Designed to support cohort construction, AJCC stage normalization, somatic mutation annotation, and production of analysis-ready count matrices for differential expression and machine-learning workflows. Active development: pipeline scripts 2 and 3 in progress.
+Designed to support cohort construction, AJCC stage normalization, somatic mutation annotation, and production of analysis-ready count matrices for differential expression and machine-learning workflows.
+Active development: pipeline scripts 2 and 3 in progress.
 
 **Focus:** Python, ETL, public cancer genomics data, metadata integration
 
