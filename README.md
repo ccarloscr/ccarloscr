@@ -23,17 +23,16 @@ I am currently strengthening the **software engineering / Python / data pipeline
 
 ### [chip-nf](https://github.com/ccarloscr/chip_nf)
 
-A **Nextflow DSL2 ChIP-seq pipeline** developed for reproducible analysis in HPC environments.  
-Includes workflow modularization, metadata-driven execution, and standard ChIP-seq processing steps.
+**Nextflow DSL2 pipeline** for end-to-end ChIP-seq analysis. Modular architecture covers paired-end QC (fastp and FastQC), Bowtie2 alignment, MACS2 peak calling in narrow/broad mode, consensus peak merging with BEDtools, DESeq2 differential peak analysis, HOMER annotation, PCA, deepTools heatmaps, volcano plots and aggregated multiQC reporting. Per-module conda environments and local/SLURM execution profiles.
 
-**Focus:** Nextflow, ChIP-seq, Conda, reproducible workflows
+**Focus:** Nextflow, ChIP-seq, Conda, SLURM-HPC, fastp, Bowtie2, MACS2, HOMER, DESeq2
 
 ---
 
 ### [loopstrength](https://github.com/ccarloscr/loopstrength)
-A 4-step pipeline designed for **quantifying chromatin loop strength** between two Hi-C conditions. Generates distance-matched random loops to compute empirical p-values and log2 fold changes, specifically solving low-replicate constraints.
+R/Python workflow for **quantifying chromatin loop strength changes** between two Hi-C conditions. Generates size- and distance-matched random loop controls, fetches contact counts via Cooler, computes log-transformed fold changes with empirical two-sided p-values derived from the null distribution and applies Benjamini-Hochberg FDR correction. Outputs a results TSV file and a volcano plot.
 
-**Focus:** Hi-C, 3D genomics, statistics, low-replicates
+**Focus:** Hi-C, 3D genomics, empirical null, low-replicates
 
 ---
 
