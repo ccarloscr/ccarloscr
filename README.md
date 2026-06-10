@@ -30,19 +30,18 @@ Per-module conda environments and local/SLURM execution profiles.
 
 ---
 
+### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
+**Python ETL pipeline** for extracting, transforming, and integrating RNA-seq expression data and clinical metadata from the **NCI Genomic Data Commons**.
+Designed to support cohort construction, AJCC stage normalization, somatic mutation annotation, and production of analysis-ready count matrices for differential expression and machine-learning workflows.
+
+**Focus:** Python, ETL, public cancer genomics data, metadata integration
+
+---
+
 ### [loopstrength](https://github.com/ccarloscr/loopstrength)
 R/Python workflow for **quantifying chromatin loop strength changes** between two Hi-C conditions. Generates size- and distance-matched random loop controls, fetches contact counts via Cooler, computes log-transformed fold changes with empirical two-sided p-values derived from the null distribution and applies Benjamini-Hochberg FDR correction. Outputs a results TSV file and a volcano plot.
 
 **Focus:** Hi-C, 3D genomics, empirical null, low-replicates
-
----
-
-### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
-**Python ETL pipeline** for extracting, transforming, and integrating RNA-seq expression data and clinical metadata from the **NCI Genomic Data Commons**.
-Designed to support cohort construction, AJCC stage normalization, somatic mutation annotation, and production of analysis-ready count matrices for differential expression and machine-learning workflows.
-Active development: pipeline scripts 2 and 3 in progress.
-
-**Focus:** Python, ETL, public cancer genomics data, metadata integration
 
 ---
 
