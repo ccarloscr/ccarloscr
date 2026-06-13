@@ -2,7 +2,7 @@
 
 I am a **geneticist and bioinformatician** with a PhD in Genetics and an MSc in Bioinformatics & Biostatistics, with hands-on experience building and maintaining reproducible workflows for **RNA-seq, ATAC-seq, ChIP-seq, and Hi-C** analysis in **SLURM-based HPC environments**.
 
-My background is in collaborative academic research, where I worked at the interface of **computational and experimental biology**. In practice, this meant designing analyses, building pipelines, integrating multi-omics datasets, and translating results into biologically meaningful conclusions.
+My background is in collaborative academic research, where I worked at the **intersection of computational and experimental biology**. In practice, this meant designing analyses, building pipelines, integrating multi-omics datasets, and translating results into biologically meaningful conclusions.
 
 I am currently strengthening the **software engineering / data pipeline** side of my profile while applying for roles in **bioinformatics, bioinformatics engineering, and scientific data analysis**.
 
@@ -10,12 +10,14 @@ I am currently strengthening the **software engineering / data pipeline** side o
 
 ## :microscope: What I work on
 
-- **NGS pipeline development** with **Nextflow**, Bash, and HPC execution
+- **NGS pipeline development** with Nextflow, Bash, Python/R, and HPC execution
 - **Bulk omics analysis**: RNA-seq, ATAC-seq, ChIP-seq, Hi-C
 - **Multi-omics integration** for regulatory genomics
 - **R-based statistical analysis** with Tidyverse and Bioconductor
-- **Python-based ETL/data workflows** for genomics datasets
-- Reproducible research practices: documentation, environment management, workflow standardization
+- **Python-based ETL/data workflows** for clinical genomics datasets
+- **Dimensionality reduction and Clustering**: PCA, UMAP, K-means, and hierarchical clustering for exploratory data analysis
+- **Machine Learning approaches**: Random Forest predictive modelling with CV and AUC-ROC metrics validation
+- **Reproducible practices**: documentation, environment management, workflow standardization
 
 ---
 
