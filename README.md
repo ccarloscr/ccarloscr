@@ -1,110 +1,75 @@
-## Hi 👋, I'm Carlos Camilleri
+## Carlos Camilleri-Robles, PhD
 
-I am a **geneticist and bioinformatician** with a PhD in Genetics and an MSc in Bioinformatics & Biostatistics, with hands-on experience building and maintaining reproducible workflows for **RNA-seq, ATAC-seq, ChIP-seq, and Hi-C** analysis in **SLURM-based HPC environments**.
+**Bioinformatics Engineer  |  Barcelona, Spain**
 
-My background is in collaborative academic research, where I worked at the **intersection of computational and experimental biology**. In practice, this meant designing analyses, building pipelines, integrating multi-omics datasets, and translating results into biologically meaningful conclusions.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/carloscamilleri/)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-7103-8354)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:camilleri.robles@gmail.com)
 
-I am currently strengthening the **software engineering / data pipeline** side of my profile while applying for roles in **bioinformatics, bioinformatics engineering, and scientific data analysis**.
-
----
-
-## :microscope: What I work on
-
-- **NGS pipeline development** with Nextflow, Bash, Python/R, and HPC execution
-- **Bulk omics analysis**: RNA-seq, ATAC-seq, ChIP-seq, Hi-C
-- **Multi-omics integration** for regulatory genomics
-- **R-based statistical analysis** with Tidyverse and Bioconductor
-- **Python-based ETL/data workflows** for clinical genomics datasets
-- **Dimensionality reduction and Clustering**: PCA, UMAP, K-means, and hierarchical clustering for exploratory data analysis
-- **Machine Learning approaches**: Random Forest predictive modelling with CV and AUC-ROC metrics validation
-- **Reproducible practices**: documentation, environment management, workflow standardization
+I build reproducible, production-grade bioinformatics pipelines for multi-omics data, from raw NGS reads to documented, reusable analytical tools. Background in Nextflow DSL2, SLURM HPC, and multi-omics integration, with a PhD in Genetics and an MSc in Bioinformatics and Biostatistics.
 
 ---
 
-## :dna: Featured repositories
+## :microscope: What I build
 
-### [chip-nf](https://github.com/ccarloscr/chip_nf)
-
-**Nextflow DSL2 pipeline** for end-to-end ChIP-seq analysis. Modular architecture covers paired-end QC (fastp and FastQC), Bowtie2 alignment, MACS2 peak calling in narrow/broad mode, consensus peak merging with BEDtools, DESeq2 differential peak analysis, HOMER annotation, PCA, deepTools heatmaps, volcano plots and aggregated multiQC reporting.
-Per-module conda environments and local/SLURM execution profiles.
-
-**Focus:** Nextflow, ChIP-seq, Conda, SLURM-HPC, fastp, Bowtie2, MACS2, HOMER, DESeq2
-
----
-
-### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL)
-**Python ETL pipeline** for extracting, transforming, and integrating RNA-seq expression data and clinical metadata from the **NCI Genomic Data Commons**.
-Designed to support cohort construction, AJCC stage normalization, somatic mutation annotation, and production of analysis-ready count matrices for differential expression and machine-learning workflows.
-
-**Focus:** Python, ETL, public cancer genomics data, metadata integration
+- **NGS Pipelines** | Nextflow DSL2 · SLURM · Apptainer/Singularity · Conda
+- **Multi-Omics Analysis** |  RNA-seq · ATAC-seq · ChIP-seq · Hi-C · WES
+- **Data Engineering** | Python ETL · API integration · count matrix production
+- **Statistical Methods** | Differential analysis · empirical null models · FDR · ML
+- **Reproducibility** | Containerized workflows · SOP documentation · FAIR practices
 
 ---
 
-### [loopstrength](https://github.com/ccarloscr/loopstrength)
-R/Python workflow for **quantifying chromatin loop strength changes** between two Hi-C conditions. Generates size- and distance-matched random loop controls, fetches contact counts via Cooler, computes log-transformed fold changes with empirical two-sided p-values derived from the null distribution and applies Benjamini-Hochberg FDR correction. Outputs a results TSV file and a volcano plot.
+## :dna: Featured projects
 
-**Focus:** Hi-C, 3D genomics, empirical null, low-replicates
+### [chip-nf](https://github.com/ccarloscr/chip-nf) - End-to-end ChIP-seq pipeline
+Nextflow DSL2 pipeline covering the full ChIP-seq workflow: `QC → alignment → peak calling → differential analysis → annotation → visualization`. Per-module Conda environments, SLURM and local execution profiles. Single command to go from raw reads to annotated differential peaks and MultiQC report.
 
----
-
-### [parastar](https://github.com/ccarloscr/parastar)
-Containerized batch **RNA-seq alignment pipeline using STAR and GNU Parallel**. Single configuration file with no script editing required.
-Features include automated genome index generation, dry-run mode, skip-completed logic for resumable HPC runs, and Apptainer/Singularity image distributed via Zenodo. Includes a SLURM submission wrapper and structured per-sample log output.
-
-**Focus:** RNA-seq, STAR, GNU Parallel, Apptainer/Singularity, SLURM-HPC
+`Nextflow` `Bowtie2` `MACS2` `DESeq2` `HOMER` `deepTools` `SLURM` `Conda`
 
 ---
 
-##  :hammer_and_wrench: Technical skills
+### [PyGDC-RNA-ETL](https://github.com/ccarloscr/PyGDC-RNA-ETL) - Clinical genomics ETL pipeline
+Python ETL pipeline for large-scale extraction and integration of RNA-seq data and clinical metadata from the NCI Genomic Data Commons. Parallelized batched API downloads with auto-resume, AJCC stage normalization, somatic mutation annotation, and analysis-ready output for DE and ML workflows.
 
-**Languages & scripting**  
-- **Python**: pandas, numpy, requests, pytest
-- **R**: Tidyverse, Bioconductor, ggplot2  
-- **Bash**: workflow scripting and HPC execution
-- **Nextflow**: DSL2 channels, processes and modules
-
-**Workflow & infrastructure**  
-- Nextflow DSL2 modules
-- SLURM HPC environments
-- Apptainer / Singularity
-- Conda / Mamba  
-- Linux / Unix  
-
-**NGS / genomics**  
-- RNA-seq / ChIP-seq / ATAC-seq
-- Hi-C / 3D genomics
-- Multi-omics integration  
-- QC, differential analysis, regulatory genomics  
-
-**Tools I have worked with**  
-- **Primary Processing:** STAR, Bowtie2, Salmon/Kallisto, samtools, fastp/Trimmomatic, FastQC/MultiQC
-- **Downstream Analyses:** featureCounts, DESeq2, MACS2, HOMER/ChIPseeker, TADbit, Cooler, deepTools, ggplot2
-- **Databases and Portals:** IGV, BioMart, Ensembl, GEO, GDC, UCSC
+`Python` `ETL` `GDC API` `pandas` `clinical metadata` `cancer genomics`
 
 ---
 
-## 📊: About this GitHub
+### [parastar](https://github.com/ccarloscr/parastar) - Containerized batch RNA-seq alignment
+STAR + GNU Parallel pipeline packaged as an Apptainer/Singularity image (distributed via Zenodo). Single config file, no script editing, dry-run mode, skip-completed logic for resumable HPC runs. Designed for batch processing at scale.
 
-Most repositories here were built to solve real research problems in a research lab setting where I was often the main person developing bioinformatics workflows and analysis utilities. They are portable, reusable and aligned with software engineering best practices.
+`STAR` `GNU Parallel` `Apptainer` `Singularity` `SLURM` `HPC`
 
 ---
 
-## 📚: Publications
+### [loopstrength](https://github.com/ccarloscr/loopstrength)  — Hi-C chromatin loop quantification
+R/Python framework for quantifying chromatin loop strength changes between conditions. Implements size- and distance-matched random controls, empirical two-sided p-values, and BH-FDR correction. Used in a *Science Advances* publication.
 
-Selected publications from my research work:
+`R` `Python` `Hi-C` `Cooler` `empirical null` `3D genomics`
 
-- **Camilleri-Robles, C.**, et al. (2024). *Long non-coding RNAs involved in Drosophila development and regeneration*. **NAR Genomics and Bioinformatics**
-- **Camilleri-Robles, C.**, et al. (2024). *A shift in chromatin binding of phosphorylated p38 precedes transcriptional changes upon oxidative stress*. **FEBS Letters**
-- **Camilleri-Robles, C.**, et al. (2022). *Genomic and functional conservation of lncRNAs: lessons from flies*. **Mammalian Genome**
-- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. *3D genome organization in tissue regeneration: functional requirement of long-range chromatin loops*. **Science Advances** (in press)
+---
+
+##  :hammer_and_wrench: Stack
+
+| | |
+|---|---|
+| **Languages** | Python · R · Bash · Nextflow DSL2 · SQL |
+| **Workflow** | Nextflow DSL2 · SLURM HPC · Apptainer/Singularity · Conda/Mamba · Git |
+| **NGS Tools** | STAR · Bowtie2 · MACS2 · HOMER · DESeq2 · GATK · Cooler · samtools · deepTools · FastQC/MultiQC |
+| **Python libs** | pandas · numpy · requests · matplotlib · scikit-learn |
+| **R libs** | Tidyverse · Bioconductor · ggplot2 · Seurat |
+| **ML / Stats** | PCA · UMAP · random forest · k-means · empirical permutation · BH-FDR |
+| **Databases** | GEO · GDC/TCGA · Ensembl · UCSC · BioMart |
+
+---
+
+## 📚: Selected publications
+
+- **Camilleri-Robles, C.**, et al. (2024). Long non-coding RNAs involved in *Drosophila* development and regeneration. *NAR Genomics and Bioinformatics*
+- **Camilleri-Robles, C.**, et al. (2024). A shift in chromatin binding of phosphorylated p38 precedes transcriptional changes upon oxidative stress. *FEBS Letters*
+- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. 3D genome organization in tissue regeneration involves long-range chromatin loops. *Science Advances* (in press)
 
 Full publication list: [ORCID](https://orcid.org/0000-0001-7103-8354)
 
 ---
-
-## :mailbox: Connect
-
-- **Mail:** camilleri.robles@gmail.com
-- **ORCID:** [0000-0001-7103-8354](https://orcid.org/0000-0001-7103-8354)
-- **GitHub:** [ccarloscr](https://github.com/ccarloscr)
-- **Location:** Barcelona, Spain
