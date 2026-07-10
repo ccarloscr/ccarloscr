@@ -12,11 +12,11 @@ I build reproducible, production-grade bioinformatics pipelines for multi-omics 
 
 ## :microscope: What I build
 
-- **NGS Pipelines** | Nextflow DSL2 · SLURM · Apptainer/Singularity · Conda
-- **Multi-Omics Analysis** |  RNA-seq · ATAC-seq · ChIP-seq · Hi-C · WES
+- **NGS Pipelines** | Nextflow DSL2 · SLURM-HPC · AWS (E3/EC2) · Apptainer/Singularity · Docker · Conda
+- **Multi-Omics Analysis** |  RNA-seq · ATAC-seq · ChIP-seq · Hi-C · WGS/WES
 - **Data Engineering** | Python ETL · API integration · count matrix production
 - **Statistical Methods** | Differential analysis · empirical null models · FDR · ML
-- **Reproducibility** | Containerized workflows · SOP documentation · FAIR practices
+- **Reproducibility** | Git version control · Containerized workflows · SOP documentation · FAIR practices
 
 ---
 
@@ -55,12 +55,11 @@ R/Python framework for quantifying chromatin loop strength changes between condi
 | | |
 |---|---|
 | **Languages** | Python · R · Bash · Nextflow DSL2 · SQL |
-| **Workflow** | Nextflow DSL2 · SLURM HPC · Apptainer/Singularity · Conda/Mamba · Git |
+| **Workflow** | Nextflow DSL2 · SLURM HPC · AWS · Apptainer/Singularity · Docker · Conda/Mamba · Git |
 | **NGS Tools** | STAR · Bowtie2 · MACS2 · HOMER · DESeq2 · GATK · Cooler · samtools · deepTools · FastQC/MultiQC |
 | **Python libs** | pandas · numpy · requests · matplotlib · scikit-learn |
 | **R libs** | Tidyverse · Bioconductor · ggplot2 · Seurat |
-| **ML / Stats** | PCA · UMAP · random forest · k-means · empirical permutation · BH-FDR |
-| **Databases** | GEO · GDC/TCGA · Ensembl · UCSC · BioMart |
+| **Machine Learning** | PCA/UMAP · k-means/hierarchical clust. · logistic regression · SVMs · random forest · XGBoost |
 
 ---
 
