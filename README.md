@@ -1,12 +1,12 @@
 ## Carlos Camilleri-Robles, PhD
 
-**Bioinformatics Engineer  |  Barcelona, Spain**
+**Bioinformatics  |  Barcelona, Spain**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/carloscamilleri/)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-7103-8354)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:camilleri.robles@gmail.com)
 
-I build reproducible, production-grade bioinformatics pipelines for multi-omics data, from raw NGS reads to documented, reusable analytical tools. Background in Nextflow DSL2, SLURM HPC, and multi-omics integration, with a PhD in Genetics and an MSc in Bioinformatics and Biostatistics.
+I build reproducible, production-grade bioinformatics pipelines for clinical biomarker discovery. Background in Nextflow DSL2, SLURM HPC, and multi-omics integration, with a PhD in Genetics and an MSc in Bioinformatics and Biostatistics.
 
 ---
 
@@ -14,13 +14,19 @@ I build reproducible, production-grade bioinformatics pipelines for multi-omics 
 
 - **NGS Pipelines** | Nextflow DSL2 · SLURM-HPC · AWS (E3/EC2) · Apptainer/Singularity · Docker · Conda
 - **Multi-Omics Analysis** |  RNA-seq · ATAC-seq · ChIP-seq · Hi-C · WGS/WES
-- **Data Engineering** | Python ETL · API integration · count matrix production
+- **Data Engineering** | ML-driven biomarker discovery · Python ETL · API integration
 - **Statistical Methods** | Differential analysis · empirical null models · FDR · ML
 - **Reproducibility** | Git version control · Containerized workflows · SOP documentation · FAIR practices
 
 ---
 
 ## :dna: Featured projects
+
+### [MALEXA](https://github.com/ccarloscr/malexa) - Machine learning algorithms for clinical biomarker discovery
+Snakemake ML pipeline predicting somatic mutation status from bulk RNA-seq expression data, directly applicable to expression-based biomarker stratification. Validated on TCGA-LUAD (n=517) with leakage-free cross-validation, within-fold normalization, and benchmarking of ElasticNet and linear SVM, achieving >0.86 ROC-AUC for EGFR/KRAS mutations. Cross-fold gene importance consensus identifies candidate expression biomarkers for downstream investigation.
+
+`Machine Learning` `Clinical Biomarkers` `Snakemake` `Python` 
+
 
 ### [chip-nf](https://github.com/ccarloscr/chip-nf) - End-to-end ChIP-seq pipeline
 Nextflow DSL2 pipeline covering the full ChIP-seq workflow: `QC → alignment → peak calling → differential analysis → annotation → visualization`. Per-module Conda environments, SLURM and local execution profiles. Single command to go from raw reads to annotated differential peaks and MultiQC report.
@@ -59,7 +65,7 @@ R/Python framework for quantifying chromatin loop strength changes between condi
 | **NGS Tools** | STAR · Bowtie2 · MACS2 · HOMER · DESeq2 · GATK · Cooler · samtools · deepTools · FastQC/MultiQC |
 | **Python libs** | pandas · numpy · requests · matplotlib · scikit-learn |
 | **R libs** | Tidyverse · Bioconductor · ggplot2 · Seurat |
-| **Machine Learning** | PCA/UMAP · k-means/hierarchical clust. · logistic regression · SVMs · random forest · XGBoost |
+| **Machine Learning** | PCA/UMAP · k-means/hierarchical clust. · SVMs · ElasticNet · random forest · XGBoost |
 
 ---
 
