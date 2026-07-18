@@ -6,16 +6,16 @@
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-7103-8354)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:camilleri.robles@gmail.com)
 
-I build reproducible, production-grade bioinformatics pipelines for clinical biomarker discovery. Background in Nextflow DSL2, SLURM HPC, and multi-omics integration, with a PhD in Genetics and an MSc in Bioinformatics and Biostatistics.
+I build reproducible, production-grade bioinformatics pipelines for clinical biomarker discovery and NGS analysis. Background in Nextflow DSL2, SLURM HPC and multi-omics integration, with a PhD in Genetics and an MSc in Bioinformatics and Biostatistics.
 
 ---
 
 ## :microscope: What I build
 
-- **NGS Pipelines** | Nextflow DSL2 · SLURM-HPC · AWS (E3/EC2) · Apptainer/Singularity · Docker · Conda
+- **NGS Pipelines** | Nextflow DSL2 · SLURM-HPC · AWS (S3/EC2) · Apptainer/Singularity · Docker · Conda
 - **Multi-Omics Analysis** |  RNA-seq · ATAC-seq · ChIP-seq · Hi-C · WGS/WES
 - **Data Engineering** | ML-driven biomarker discovery · Python ETL · API integration
-- **Statistical Methods** | Differential analysis · empirical null models · FDR · ML
+- **Statistical Methods** | Dimensionality reduction · Multivariate analysis · Empirical null models
 - **Reproducibility** | Git version control · Containerized workflows · SOP documentation · FAIR practices
 
 ---
@@ -23,7 +23,7 @@ I build reproducible, production-grade bioinformatics pipelines for clinical bio
 ## :dna: Featured projects
 
 ### [MALEXA](https://github.com/ccarloscr/malexa) - Machine learning algorithms for clinical biomarker discovery
-Snakemake ML pipeline predicting somatic mutation status from bulk RNA-seq expression data, directly applicable to expression-based biomarker stratification. Validated on TCGA-LUAD (n=517) with leakage-free cross-validation, within-fold normalization, and benchmarking of ElasticNet and linear SVM, achieving >0.86 ROC-AUC for EGFR/KRAS mutations. Cross-fold gene importance consensus identifies candidate expression biomarkers for downstream investigation.
+Snakemake ML pipeline predicting somatic mutation status from bulk RNA-seq expression data, directly applicable to expression-based biomarker stratification. Validated on TCGA-LUAD (n=517) with leakage-free cross-validation, within-fold normalization, and benchmarking of ElasticNet and XGBoost, achieving >0.86 ROC-AUC for EGFR/KRAS mutations. Cross-fold gene importance consensus identifies candidate expression biomarkers for downstream investigation.
 
 `Machine Learning` `Clinical Biomarkers` `Snakemake` `Python` 
 
@@ -65,13 +65,13 @@ R/Python framework for quantifying chromatin loop strength changes between condi
 | **NGS Tools** | STAR · Bowtie2 · MACS2 · HOMER · DESeq2 · GATK · Cooler · samtools · deepTools · FastQC/MultiQC |
 | **Python libs** | pandas · numpy · requests · matplotlib · scikit-learn |
 | **R libs** | Tidyverse · Bioconductor · ggplot2 · Seurat |
-| **Machine Learning** | PCA/UMAP · k-means/hierarchical clust. · SVMs · ElasticNet · random forest · XGBoost |
+| **Machine Learning** | PCA/UMAP · k-means/hierarchical clust. · SVMs · ElasticNet · Random forest · XGBoost |
 
 ---
 
-## 📚: Selected publications
+## :books: Selected publications
 
-- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. 3D genome organization in tissue regeneration involves long-range chromatin loops. *Science Advances* (Accepted)
+- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. (2026) 3D genome organization in tissue regeneration involves long-range chromatin loops. *Science Advances*
 - **Camilleri-Robles, C.**, et al. (2024). Long non-coding RNAs involved in *Drosophila* development and regeneration. *NAR Genomics and Bioinformatics*
 - **Camilleri-Robles, C.**, et al. (2024). A shift in chromatin binding of phosphorylated p38 precedes transcriptional changes upon oxidative stress. *FEBS Letters*
 
