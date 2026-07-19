@@ -23,7 +23,7 @@ I build reproducible, production-grade bioinformatics pipelines for clinical bio
 ## :dna: Featured projects
 
 ### [MALEXA](https://github.com/ccarloscr/malexa) - Machine learning algorithms for clinical biomarker discovery
-Snakemake ML pipeline predicting somatic mutation status from bulk RNA-seq expression data, directly applicable to expression-based biomarker stratification. Validated on TCGA-LUAD (n=517) with leakage-free cross-validation, within-fold normalization, and benchmarking of ElasticNet and XGBoost, achieving >0.86 ROC-AUC for EGFR/KRAS mutations. Cross-fold gene importance consensus identifies candidate expression biomarkers for downstream investigation.
+Snakemake ML pipeline predicting somatic mutation status from bulk RNA-seq expression data, directly applicable to expression-based biomarker stratification. Validated on TCGA-LUAD (n=517) with leakage-free cross-validation, within-fold normalization, and benchmarking of ElasticNet and XGBoost, achieving >0.82 ROC-AUC for EGFR/KRAS mutations. Cross-fold gene importance consensus identifies candidate expression biomarkers for downstream investigation.
 
 `Machine Learning` `Clinical Biomarkers` `Snakemake` `Python` 
 
