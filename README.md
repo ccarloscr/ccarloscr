@@ -71,9 +71,9 @@ R/Python framework for quantifying chromatin loop strength changes between condi
 
 ## :books: Selected publications
 
-- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. (2026) 3D genome organization in tissue regeneration involves long-range chromatin loops. *Science Advances*
-- **Camilleri-Robles, C.**, et al. (2024). Long non-coding RNAs involved in *Drosophila* development and regeneration. *NAR Genomics and Bioinformatics*
-- **Camilleri-Robles, C.**, et al. (2024). A shift in chromatin binding of phosphorylated p38 precedes transcriptional changes upon oxidative stress. *FEBS Letters*
+- Llorens-Giralt, P., **Camilleri-Robles, C.**, et al. (2026) 3D genome organization in tissue regeneration involves long-range chromatin loops. *Science Advances* - [Full-text](https://doi.org/10.1126/sciadv.aea8281)
+- **Camilleri-Robles, C.**, et al. (2024). Long non-coding RNAs involved in *Drosophila* development and regeneration. *NAR Genomics and Bioinformatics* - [Full-text](https://doi.org/10.1093/nargab/lqae091)
+- **Camilleri-Robles, C.**, et al. (2024). A shift in chromatin binding of phosphorylated p38 precedes transcriptional changes upon oxidative stress. *FEBS Letters* - [Full-text](https://doi.org/10.1002/1873-3468.15006)
 
 
 Full publication list: [ORCID](https://orcid.org/0000-0001-7103-8354)
